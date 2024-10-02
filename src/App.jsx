@@ -1,9 +1,8 @@
-import { useState } from 'react'
+
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './pages/Layout';
 import HomePage from './pages/HomePage/HomePage';
-import AboutPage from './pages/AboutPage/AboutPage';
 
 function App() {
   
@@ -11,7 +10,7 @@ function App() {
     {path : '/', element : <Layout/>,
       children: [
         {path: '/', element: <HomePage/>},
-        {path: '/about', element: <AboutPage/>},
+        // {path: '/about', element: <AboutPage/>},
       ]
     }
   ]);
