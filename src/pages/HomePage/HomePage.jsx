@@ -7,8 +7,9 @@ function HomePage() {
     return (
       <div>
         <StartingBanner/>
-{/* <Timer></Timer> */}
+
         <Booking /> 
+        <Timer/>
  <Fulldescription/>       
         </div>
     );
