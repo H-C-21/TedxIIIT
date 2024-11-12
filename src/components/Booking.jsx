@@ -1,14 +1,14 @@
-import BgSpiral from "../assets/book_bg.jpeg";
+import BgSpiral from "../assets/hands.png";
 
 function Booking() {
   return (
     <div className="h-[auto] mb-4">
-      <div className="w-full h-[85%] flex flex-row"
+      <div className="w-full h-[90%] flex flex-row"
         
       >
         <div className="flex w-[110%] bg-right bg-[210%_auto] px-8 bg-no-repeat
         bg-opacity-15"
-        style={{ backgroundImage: `url(${BgSpiral})` }}>
+        style={{ backgroundImage: `url('src/assets/sea.JPG')` }}>
        {/* <div className="absolute h-[100%] w-[100vw] block top-0 left-0 bg-black opacity-50"></div> */}
          <div className="inset-0 bg-gradient-to-br from-[#002f4b] to-[#dc4225] opacity-60"></div>
           <div className="flex flex-col justify-center">
@@ -33,11 +33,14 @@ function Booking() {
           </div>
         </div>
         <div
-          className="bg-center w-[80%] h-auto bg-repeat-x flex justify-center items-center"
+          className="bg-center w-[60%] h-auto bg-repeat flex justify-center items-center"
           style={{ backgroundImage: `url(${BgSpiral})` }}
         >
-          <button className="px-4 h-12 rounded-lg bg-black py-2 text-red-500 hover:text-white 
-          text-lg">Book Your Tickets!</button>
+        <button className="px-4 h-12 rounded-lg bg-black py-2 text-red-500 text-lg border border-red-500 transform hover:scale-105 transition duration-300">
+  Book Your Tickets!
+</button>
+
+
         </div>
       </div>
     </div>

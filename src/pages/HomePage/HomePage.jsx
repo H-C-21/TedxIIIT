@@ -1,5 +1,6 @@
 import Booking from "../../components/Booking";
 import Fulldescription from "../../components/Fulldescription";
+import ReasonsToAttend from "../../components/reasons";
 import StartingBanner from "../../components/StartingBanner";
 import Timer from "../../components/Timer";
 
@@ -9,7 +10,8 @@ function HomePage() {
         <StartingBanner/>
 
         <Booking /> 
-        <Timer/>
+        <Timer />
+        <ReasonsToAttend />
  <Fulldescription/>       
         </div>
     );
