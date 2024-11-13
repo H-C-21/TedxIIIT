@@ -35,6 +35,13 @@ function ReasonsToAttend() {
         "Hear stories that inspire and challenge the way you think about the world.",
       image: "src/assets/experience.jpg",
     },
+    {
+      id: 6,
+      title: "Meet and Greet",
+      description:
+        "Connect with fellow attendees & special guests in an engaging meet and greet session, where meaningful conversations and new friendships begin.",
+      image: "src/assets/meetngreet.png",
+    },
 
     // Add more items as needed
   ];
@@ -52,7 +59,7 @@ function ReasonsToAttend() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {reasons.map((reason) => (
           <div key={reason.id} className="flex flex-col items-center">
-            <div className="w-74 h-64 bg-gray-800 rounded-full flex justify-center items-center shadow-lg relative overflow-hidden transform transition duration-500 hover:scale-110">
+            <div className="w-64 h-64 bg-gray-800 rounded-full flex justify-center items-center shadow-lg relative overflow-hidden transform transition duration-500 hover:scale-110">
               <img
                 src={reason.image}
                 alt={reason.title}
@@ -61,7 +68,7 @@ function ReasonsToAttend() {
               <div className="absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-red-500 text-3xl font-bold mb-2">{`0${reason.id}`}</span>
                 <h3 className="text-2xl font-semibold">{reason.title}</h3>
-                <p className="text-center mt-4 text-gray-300">
+                <p className="text-center mt-4 text-gray-300 p px-6">
                   {reason.description}
                 </p>
               </div>
