@@ -1,17 +1,14 @@
-import kalidoscope from '../assets/kalidoscope.jpeg';
-import tedX from '../assets/tedX.png'; 
-
 function StartingBanner() {
   return (
-      <div className="h-[80%]">
-          <div
-              className="w-full h-[83vh] bg-cover bg-no-repeat bg-right-bottom flex justify-center items-center"
-              style={{
-                  backgroundImage: `url('src/assets/iiit.png')`,
-                  backgroundPosition: "65% 50%",
-              }}
-          >
-              {/* <div className="flex flex-col md:flex-row w-[90%] md:w-[70%] my-auto mr-[5vw] ml-4 md:ml-7 mt-[10vh] md:mt-[22vh]">
+    <div className="h-[80%]">
+      <div
+        className="w-full h-[83vh] bg-cover bg-no-repeat bg-right-bottom flex justify-center items-center"
+        style={{
+          backgroundImage: `url('src/assets/iiit.png')`,
+          backgroundPosition: "65% 50%",
+        }}
+      >
+        {/* <div className="flex flex-col md:flex-row w-[90%] md:w-[70%] my-auto mr-[5vw] ml-4 md:ml-7 mt-[10vh] md:mt-[22vh]">
                   <div className="flex flex-col items-center md:items-start">
                       <img 
                           src={tedX} 
@@ -28,8 +25,8 @@ function StartingBanner() {
                       </div>
                   </div>
               </div> */}
-          </div>
       </div>
+    </div>
   );
 }
 
