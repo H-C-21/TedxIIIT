@@ -2,11 +2,11 @@ import React from "react";
 import sponsorsbg from "../assets/sponsorsbg.png";
 
 const sponsors = [
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw3uoHDgbhnVEz_ME1plwJzK8b1DWTTQcVNw&s",
-  "https://seekvectors.com/files/download/sbi-bank-logo-04.jpg",
-  "https://play-lh.googleusercontent.com/5rIkR7Y6ssL7aq9S7b_E3GSKQ9kNsmpacLhhugthX1xjHs7DbOpdU-mXhEkIkO52C_2I",
-  "https://logos-download.com/wp-content/uploads/2016/04/Domino_pizza_logo.png",
-  "https://www.logo.wine/a/logo/Cadbury/Cadbury-Logo.wine.svg",
+  "src/assets/sponsors/campuslife.jpg",
+  "src/assets/sponsors/StationS.png",
+  "https://machickaneeplayers.com/wp-content/uploads/2023/04/tba.png?w=640",
+  "https://machickaneeplayers.com/wp-content/uploads/2023/04/tba.png?w=640",
+  "https://machickaneeplayers.com/wp-content/uploads/2023/04/tba.png?w=640",
 ];
 
 const SponsorsSection = () => {
@@ -28,19 +28,17 @@ const SponsorsSection = () => {
                 <img
                   src={sponsor}
                   alt={`Sponsor ${index + 1}`}
-                  className="w-full h-full object-contain px-2"
+                  className="w-full h-full object-contain px-1"
                 />
               </div>
             ))}
           </div>
         </div>
       </div>
-
-      {/* Additional styles for the animation */}
       <style jsx>{`
         .animate-slide {
           display: flex;
-          animation: slide 12s linear infinite;
+          animation: slide 20s linear infinite;
         }
 
         @keyframes slide {
