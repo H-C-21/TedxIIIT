@@ -4,6 +4,7 @@ import StartingBanner from "../../components/StartingBanner";
 import Timer from "../../components/Timer";
 import SponsorsSection from "../../components/sponsors";
 import Speaker from "../../components/Speaker";
+import Footer from "../../components/Footer";
 function HomePage() {
   return (
     <div>
@@ -14,6 +15,7 @@ function HomePage() {
       <Speaker />
 
       <SponsorsSection />
+      <Footer />
     </div>
   );
 }

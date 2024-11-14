@@ -15,30 +15,36 @@ function SpeakerCard({ image, name, description }) {
 function Speaker() {
   const speakers = [
     {
-      name: "John Doe",
-      description: "Innovative tech entrepreneur, speaker, and educator.",
-      image: "src/assets/speakers/first.jpg",
-    },
-    {
-      name: "Jane Smith",
-      description: "Renowned scientist with research in physics.",
-      image: "src/assets/speakers/second.jpg",
-    },
-    {
-      name: "Alex Johnson",
+      name: "Thulasimathi Murugesan  ",
       description:
-        "Passionate about environmental conservation and sustainability.",
-      image: "src/assets/speakers/third.jpg",
+        "A badminton paralympian from Tamil Nadu. She represented India at the Paris 2024 Paralympics and 2022 Asian Para Games. She won three medals in para badminton competitions, SL3-SU5 and SU5 classes. She made history as the first Indian woman shuttler to win a Paralympic silver medal, following a remarkable journey to the final in the SU5 category.",
+      image: "src/assets/speakers/thulasimathimurugesan.webp",
     },
     {
-      name: "Steven Kelly",
-      description: "Leader in digital marketing and social media strategy.",
-      image: "src/assets/speakers/fourth.JPG",
+      name: "Dr. Ashok Rajgopal",
+      description:
+        "An Indian orthopaedic surgeon, credited with 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries. He was honoured with 'Padmashri' by the Government of India in 2014 for his services to the fields of orthopaedic surgery.",
+      image: "src/assets/speakers/AshokRajgopal.jpg",
     },
     {
-      name: "Timati",
-      description: "Leader in digital marketing and social media strategy.",
-      image: "src/assets/speakers/fifth.JPG",
+      name: "Malvika Jey",
+      description:
+        "An artist known for her exploration of surrealism and abstract art. She began her artistic journey since she was 4 years old. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color and form.",
+      image: "src/assets/speakers/MalvikaJey.png",
+    },
+
+    {
+      name: "Dr. Abhinanda Sarkar",
+      description:
+        "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
+      image: "src/assets/speakers/AbhinandaSarkar.jpeg",
+    },
+
+    {
+      name: "Ramalingam Natarajan",
+      description:
+        "The co-founder of Volunteer for India (VFI), an organization aimed at fostering volunteerism to address social issues across the country. His career trajectory is notable for its blend of engineering, education, and social innovation. Initially trained as an aerospace engineer, he worked on projects for Airbus and Boeing before shifting to impactful community work.",
+      image: "src/assets/speakers/ramalingam.JPG",
     },
 
     // Add more speaker objects as needed
@@ -59,7 +65,7 @@ function Speaker() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12 mt-[-30%]">
+      <div className="container mx-auto px-4 py-12 mt-[-20%]">
         <div className="flex flex-wrap justify-center">
           {speakers.map((speaker, index) => (
             <SpeakerCard
