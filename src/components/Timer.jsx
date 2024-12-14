@@ -65,7 +65,7 @@ function Timer() {
       <div
         className="w-full h-[60vh] bg-no-repeat bg-right-bottom flex  flex-col justify-center items-center mt-[-2.3vh]"
         style={{
-          backgroundImage: `url('src/assets/timerbg.jpg')`,
+          backgroundImage: `url('/timerbg.jpg')`,
           backgroundPosition: "30% 30%",
         }}
       >
