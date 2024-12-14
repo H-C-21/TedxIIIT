@@ -2,8 +2,8 @@ import React from "react";
 import sponsorsbg from "../assets/sponsorsbg.png";
 
 const sponsors = [
-  "src/assets/sponsors/campuslife.jpg",
-  "src/assets/sponsors/StationS.png",
+  "/sponsors/campuslife.jpg",
+  "/sponsors/StationS.png",
   "https://machickaneeplayers.com/wp-content/uploads/2023/04/tba.png?w=640",
   "https://machickaneeplayers.com/wp-content/uploads/2023/04/tba.png?w=640",
   "https://machickaneeplayers.com/wp-content/uploads/2023/04/tba.png?w=640",
