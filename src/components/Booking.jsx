@@ -15,7 +15,7 @@ function Booking() {
             <div className="">
               <section className="flex items-top justify-center h-[100%] bg-black-100">
                 <div className="flex flex-col p-3 max-w-2xl w-full rounded-lg shadow-md justify-center">
-                  <p className="text-[1.35rem] my-6">
+                  <p className="text-[1.25rem] my-6">
                     <i>Kaleidoscope of Humanity,</i> envisions a world where the
                     beauty of human diversity comes together to create something
                     extraordinary. Just like a kaleidoscope, where every shift

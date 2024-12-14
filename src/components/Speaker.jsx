@@ -19,33 +19,33 @@ function Speaker() {
     {
       name: "Thulasimathi Murugesan  ",
       description:
-        "A badminton paralympian from Tamil Nadu. She represented India at the Paris 2024 Paralympics and 2022 Asian Para Games. She won three medals in para badminton competitions, SL3-SU5 and SU5 classes. She made history as the first Indian woman shuttler to win a Paralympic silver medal, following a remarkable journey to the final in the SU5 category.",
+        "A badminton paralympian from Tamil Nadu who represented India at the Paris 2024 Paralympics and 2022 Asian Para Games. She won three medals in para badminton competitions, SL3-SU5 and SU5 classes, making history as the first Indian woman shuttler to win a Paralympic silver medal after a remarkable journey to the SU5 final.",
       image: "/speakers/Thulasimathimurugesan.webp",
     },
     {
       name: "Dr. Ashok Rajgopal",
       description:
-        "An Indian orthopaedic surgeon, credited with 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries. He was honoured with 'Padmashri' by the Government of India in 2014 for his services to the fields of orthopaedic surgery.",
+        "An Indian orthopaedic surgeon, credited with performing 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries worldwide. He was honoured with the 'Padmashri' by the Government of India in 2014 for his exceptional services to the fields of orthopaedic surgery and medical innovation.",
       image: "/speakers/AshokRajgopal.jpg",
     },
     {
       name: "Malvika Jey",
       description:
-        "An artist known for her exploration of surrealism and abstract art. She began her artistic journey since she was 4 years old. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color and form.",
+        "An artist known for her exploration of surrealism and abstract art. She began her artistic journey at the age of 4, showcasing exceptional talent. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color, form, and dynamic textures.",
       image: "/speakers/MalvikaJey.png",
     },
 
     {
       name: "Dr. Abhinanda Sarkar",
       description:
-        "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
+        "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications & technical leadership have been in applying probabilistic models, statistical analysis & Machine Learning.",
       image: "/speakers/AbhinandaSarkar.jpeg",
     },
 
     {
       name: "Ramalingam Natarajan",
       description:
-        "The co-founder of Volunteer for India (VFI), an organization aimed at fostering volunteerism to address social issues across the country. His career trajectory is notable for its blend of engineering, education, and social innovation. Initially trained as an aerospace engineer, he worked on projects for Airbus and Boeing before shifting to impactful community work.",
+        "The co-founder of Volunteer for India (VFI), an organization fostering volunteerism to address social issues. His career is notable for its mix of engineering, education, and innovation. Initially trained as an aerospace engineer, he worked on projects for Airbus and Boeing before transitioning to impactful community work.",
       image: "/speakers/ramalingam.jpg",
     },
 
