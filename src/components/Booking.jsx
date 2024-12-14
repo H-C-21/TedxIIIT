@@ -1,5 +1,5 @@
 import BgSpiral from "../assets/hands.png";
-
+import sea from "../assets/sea.jpg"
 function Booking() {
   return (
     <div className="h-[auto] mb-4">
@@ -8,7 +8,7 @@ function Booking() {
       >
         <div className="flex w-[110%] bg-right bg-[210%_auto] px-8 bg-no-repeat
         bg-opacity-15"
-        style={{ backgroundImage: `url('src/assets/sea.JPG')` }}>
+        style={{ backgroundImage: `url(${sea})` }}>
        {/* <div className="absolute h-[100%] w-[100vw] block top-0 left-0 bg-black opacity-50"></div> */}
          <div className="inset-0 bg-gradient-to-br from-[#002f4b] to-[#dc4225] opacity-60"></div>
           <div className="flex flex-col justify-center">
