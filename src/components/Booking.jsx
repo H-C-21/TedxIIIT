@@ -1,5 +1,5 @@
 import BgSpiral from "../assets/hands.png";
-import SeaBanner from "../assets/sea.jpg"
+import SeaBanner from "../assets/sea2.jpg"
 function Booking() {
   return (
     <div className="h-[auto] mb-4">
