@@ -1,5 +1,5 @@
 import BgSpiral from "../assets/hands.png";
-
+import SeaBanner from "../assets/sea2.jpg"
 function Booking() {
   return (
     <div className="h-[auto] mb-4">
@@ -8,14 +8,14 @@ function Booking() {
       >
         <div className="flex w-[110%] bg-right bg-[210%_auto] px-8 bg-no-repeat
         bg-opacity-15"
-        style={{ backgroundImage: `url('src/assets/sea.JPG')` }}>
+        style={{ backgroundImage: `url(${SeaBanner})` }}>
        {/* <div className="absolute h-[100%] w-[100vw] block top-0 left-0 bg-black opacity-50"></div> */}
          <div className="inset-0 bg-gradient-to-br from-[#002f4b] to-[#dc4225] opacity-60"></div>
           <div className="flex flex-col justify-center">
             <div className="">
               <section className="flex items-top justify-center h-[100%] bg-black-100">
                 <div className="flex flex-col p-3 max-w-2xl w-full rounded-lg shadow-md justify-center">
-                  <p className="text-[1.35rem] my-6">
+                  <p className="text-[1.25rem] my-6">
                     <i>Kaleidoscope of Humanity,</i> envisions a world where the
                     beauty of human diversity comes together to create something
                     extraordinary. Just like a kaleidoscope, where every shift
