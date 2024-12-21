@@ -9,7 +9,7 @@ function StartingBanner() {
           backgroundImage: isMobile
             ? `url('src/assets/mobile.png')` // Replace with the path to your mobile image
             : `url('src/assets/iiit.png')`,
-          backgroundPosition: isMobile ? "center" : "65% 50%",
+          backgroundPosition: isMobile ? "center" : "65% 40%",
           backgroundSize: isMobile ? "95%" : "100%",
         }}
       ></div>
@@ -19,8 +19,7 @@ function StartingBanner() {
 
 export default StartingBanner;
 
-{
-  /* <div className="flex flex-col md:flex-row w-[90%] md:w-[70%] my-auto mr-[5vw] ml-4 md:ml-7 mt-[10vh] md:mt-[22vh]">
+/* <div className="flex flex-col md:flex-row w-[90%] md:w-[70%] my-auto mr-[5vw] ml-4 md:ml-7 mt-[10vh] md:mt-[22vh]">
                   <div className="flex flex-col items-center md:items-start">
                       <img 
                           src={tedX} 
@@ -37,4 +36,3 @@ export default StartingBanner;
                       </div>
                   </div>
               </div> */
-}
