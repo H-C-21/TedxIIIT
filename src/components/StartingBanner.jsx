@@ -11,7 +11,7 @@ function StartingBanner() {
           backgroundImage: isMobile
             ? `url('src/assets/mobile.png')` // Replace with the path to your mobile image
             : `url('src/assets/iiit.png')`,
-          backgroundPosition: isMobile ? "center" : "65% 50%",
+          backgroundPosition: isMobile ? "center" : "65% 40%",
           backgroundSize: isMobile ? "95%" : "100%",
         }}
       ></div>
@@ -20,3 +20,4 @@ function StartingBanner() {
 }
 
 export default StartingBanner;
+
