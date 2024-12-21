@@ -26,12 +26,12 @@ function Speaker() {
 
       name: "To be annouced",
       description: "Coming soon!",
-      image: "src/assets/speakers/guest.png",
+      image: "public/speakers/guest.png",
     },
     {
       name: "To be annouced",
       description: "Coming soon!",
-      image: "src/assets/speakers/guest.png",
+      image: "public/speakers/guest.png",
     },
     // {
     //   name: "Malvika Jey",
