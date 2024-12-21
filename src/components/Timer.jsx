@@ -32,7 +32,7 @@ function CountdownTimer({ targetDate }) {
 
   return (
     <div
-      className="flex justify-center items-center bg-black rounded-full py-6 px-10"
+      className="flex justify-center items-center bg-black rounded-full py-4 px-10"
       trans
     >
       {["Days", "Hours", "Minutes", "Seconds"].map((label, index) => (
@@ -58,7 +58,7 @@ function CountdownTimer({ targetDate }) {
 
 function Timer() {
   // change the date
-  const targetDate = new Date("2024-11-30T23:59:59"); // Set your target date here
+  const targetDate = new Date("2025-01-30T23:59:59"); // Set your target date here
 
   return (
     <div className="h-[80%]">

@@ -21,31 +21,35 @@ function Speaker() {
       image: "src/assets/speakers/thulasimathimurugesan.webp",
     },
     {
-      name: "Dr. Ashok Rajgopal",
-      description:
-        "An Indian orthopaedic surgeon, credited with 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries. He was honoured with 'Padmashri' by the Government of India in 2014 for his services to the fields of orthopaedic surgery.",
-      image: "src/assets/speakers/AshokRajgopal.jpg",
+      name: "To be annouced",
+      description: "Coming soon!",
+      image: "src/assets/speakers/guest.png",
     },
     {
-      name: "Malvika Jey",
-      description:
-        "An artist known for her exploration of surrealism and abstract art. She began her artistic journey since she was 4 years old. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color and form.",
-      image: "src/assets/speakers/MalvikaJey.png",
+      name: "To be annouced",
+      description: "Coming soon!",
+      image: "src/assets/speakers/guest.png",
     },
+    // {
+    //   name: "Malvika Jey",
+    //   description:
+    //     "An artist known for her exploration of surrealism and abstract art. She began her artistic journey since she was 4 years old. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color and form.",
+    //   image: "src/assets/speakers/MalvikaJey.png",
+    // },
 
-    {
-      name: "Dr. Abhinanda Sarkar",
-      description:
-        "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
-      image: "src/assets/speakers/AbhinandaSarkar.jpeg",
-    },
+    // {
+    //   name: "Dr. Abhinanda Sarkar",
+    //   description:
+    //     "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
+    //   image: "src/assets/speakers/AbhinandaSarkar.jpeg",
+    // },
 
-    {
-      name: "Ramalingam Natarajan",
-      description:
-        "The co-founder of Volunteer for India (VFI), an organization aimed at fostering volunteerism to address social issues across the country. His career trajectory is notable for its blend of engineering, education, and social innovation. Initially trained as an aerospace engineer, he worked on projects for Airbus and Boeing before shifting to impactful community work.",
-      image: "src/assets/speakers/ramalingam.JPG",
-    },
+    // {
+    //   name: "Ramalingam Natarajan",
+    //   description:
+    //     "The co-founder of Volunteer for India (VFI), an organization aimed at fostering volunteerism to address social issues across the country. His career trajectory is notable for its blend of engineering, education, and social innovation. Initially trained as an aerospace engineer, he worked on projects for Airbus and Boeing before shifting to impactful community work.",
+    //   image: "src/assets/speakers/ramalingam.JPG",
+    // },
 
     // Add more speaker objects as needed
   ];
