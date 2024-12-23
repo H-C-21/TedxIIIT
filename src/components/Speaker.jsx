@@ -29,6 +29,13 @@ function Speaker() {
       image: "public/speakers/guest.png",
     },
     {
+      name: "Dr. Abhinanda Sarkar",
+      description:
+        "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
+      image: "src/assets/speakers/AbhinandaSarkar.jpeg",
+    },
+
+    {
       name: "To be annouced",
       description: "Coming soon!",
       image: "public/speakers/guest.png",
@@ -40,13 +47,6 @@ function Speaker() {
     //   image: "src/assets/speakers/MalvikaJey.png",
     // },
 
-
-    // {
-    //   name: "Dr. Abhinanda Sarkar",
-    //   description:
-    //     "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
-    //   image: "src/assets/speakers/AbhinandaSarkar.jpeg",
-    // },
 
     // {
     //   name: "Ramalingam Natarajan",
