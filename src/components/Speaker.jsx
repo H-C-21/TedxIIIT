@@ -21,6 +21,13 @@ function Speaker() {
       image: "src/assets/speakers/thulasimathimurugesan.webp",
     },
     {
+      name: "Dr. Abhinanda Sarkar",
+      description:
+        "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
+      image: "src/assets/speakers/AbhinandaSarkar.jpeg",
+    },
+
+    {
       name: "To be annouced",
       description: "Coming soon!",
       image: "src/assets/speakers/guest.png",
@@ -35,13 +42,6 @@ function Speaker() {
     //   description:
     //     "An artist known for her exploration of surrealism and abstract art. She began her artistic journey since she was 4 years old. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color and form.",
     //   image: "src/assets/speakers/MalvikaJey.png",
-    // },
-
-    // {
-    //   name: "Dr. Abhinanda Sarkar",
-    //   description:
-    //     "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
-    //   image: "src/assets/speakers/AbhinandaSarkar.jpeg",
     // },
 
     // {
