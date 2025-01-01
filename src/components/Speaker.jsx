@@ -18,7 +18,7 @@ function Speaker() {
       name: "Thulasimathi Murugesan  ",
       description:
         "A badminton paralympian from Tamil Nadu. She represented India at the Paris 2024 Paralympics and 2022 Asian Para Games. She won three medals in para badminton competitions, SL3-SU5 and SU5 classes. She made history as the first Indian woman shuttler to win a Paralympic silver medal, following a remarkable journey to the final in the SU5 category.",
-      image: "src/assets/speakers/thulasimathimurugesan.webp",
+      image: "src/assets/speakers/Thulasimathimurugesan.webp",
     },
     {
       name: "Malvika Jey",
