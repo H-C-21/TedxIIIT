@@ -14,7 +14,7 @@ function HomePage() {
       <ReasonsToAttend />
       <Speaker />
 
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
       <Footer />
     </div>
   );
