@@ -88,7 +88,7 @@ function Speaker() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12 mt-[-20%]">
+      <div className="container mx-auto px-8 py-12 mt-[-20%]">
         <div className="flex flex-wrap justify-center">
           {speakers.map((speaker, index) => (
             <SpeakerCard
