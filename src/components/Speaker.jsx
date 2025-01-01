@@ -18,57 +18,57 @@ function Speaker() {
       name: "Thulasimathi Murugesan  ",
       description:
         "A badminton paralympian from Tamil Nadu. She represented India at the Paris 2024 Paralympics and 2022 Asian Para Games. She won three medals in para badminton competitions, SL3-SU5 and SU5 classes. She made history as the first Indian woman shuttler to win a Paralympic silver medal, following a remarkable journey to the final in the SU5 category.",
-      image: "src/assets/speakers/Thulasimathimurugesan.webp",
+      image: "TedxIIIT/src/assets/speakers/Thulasimathimurugesan.webp",
     },
     {
       name: "Malvika Jey",
       description:
         "An artist known for her exploration of surrealism and abstract art. She began her artistic journey since she was 4 years old. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color and form.",
-      image: "src/assets/speakers/MalvikaJey.png",
+      image: "TedxIIIT/src/assets/speakers/MalvikaJey.png",
     },
 
     {
       name: "Dr. Abhinanda Sarkar",
       description:
         "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
-      image: "src/assets/speakers/AbhinandaSarkar.jpeg",
+      image: "TedxIIIT/src/assets/speakers/AbhinandaSarkar.jpeg",
     },
     {
       name: "Dr. Ashok Rajgopal",
       description:
         "An Indian orthopaedic surgeon, credited with close to 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries and reported to be one of the most experienced in his field in India.He was honoured by the Government of India in 2014, by bestowing on him the Padmashri, the fourth highest civilian award, for his services to the fields of orthopaedic surgery",
-      image: "src/assets/speakers/AshokRajgopal.jpg",
+      image: "TedxIIIT/src/assets/speakers/AshokRajgopal.jpg",
     },
     {
       name: "Ramalingam Natarajan",
       description:
         "The co-founder of Volunteer for India (VFI), an organization aimed at fostering volunteerism to address social issues across the country. His career trajectory is notable for its blend of engineering, education, and social innovation. Initially trained as an aerospace engineer, he worked on projects for Airbus and Boeing before shifting to impactful community work.",
-      image: "src/assets/speakers/ramalingam.jpg",
+      image: "TedxIIIT/src/assets/speakers/ramalingam.jpg",
     },
     {
       name: "Swarnalatha",
       description:
         "Swarnalatha Y is a visionary leader in innovation and strategic growth. With a strong background in leadership and problem-solving, she transforms challenges into opportunities.As communication coach she is widely acknowledged in the industry for her human-centered engaging style and focus on authentic story-telling, powerful ideas, compelling presentations and effective public speaking and communication.",
-      image: "src/assets/speakers/swarnalatha.png",
+      image: "TedxIIIT/src/assets/speakers/swarnalatha.png",
     },
 
     {
       name: "Sunil Raveendran",
       description:
         "A visionary software architect and technology thought leader who believes in harnessing digital innovation for societal good.Featured in Forbes 50 Blockchain Teams, Sunil brings over two decades of enterprise software architecture experience. As the President of Kerala Chapter of India Blockchain Forum and a board of studies member at Digital University Kerala, he's actively shaping the future of digital education and technology adoption.",
-      image: "src/assets/speakers/sunilraveendran.jpg",
+      image: "TedxIIIT/src/assets/speakers/sunilraveendran.jpg",
     },
     {
       name: "Karuppannan Jaishankar",
       description:
         'Karuppannan Jaishankar is an Indian criminologist. He is the Founder and Principal Director and Professor of Criminology and Justice Sciences at the International Institute of Justice & Police Sciences.He is the founding father of cyber criminology,an academic sub-discipline of criminology and the proponent of the "Space Transition Theory of Cyber Crimes" which holds that people behave differently online than they do in real life.',
-      image: "src/assets/speakers/jaishankar.jpg",
+      image: "TedxIIIT/src/assets/speakers/jaishankar.jpg",
     },
     {
       name: "Anil Kumar",
       description:
         "A leader in digital transformation, he blends expertise in AI, cloud, and innovation to deliver groundbreaking solutions.With 400+ successful deals and a passion for mentoring future leaders, his journey is truly inspiring. Anil Kumar's work continues to shape the future of technology across industries.",
-      image: "src/assets/speakers/anilkumar.png",
+      image: "TedxIIIT/src/assets/speakers/anilkumar.png",
     },
     // Add more speaker objects as needed
   ];
