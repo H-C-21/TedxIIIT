@@ -19,15 +19,14 @@ function Speaker() {
       description:
         "A badminton paralympian from Tamil Nadu. She represented India at the Paris 2024 Paralympics and 2022 Asian Para Games. She won three medals in para badminton competitions, SL3-SU5 and SU5 classes. She made history as the first Indian woman shuttler to win a Paralympic silver medal, following a remarkable journey to the final in the SU5 category.",
 
-      image: "public/speakers/Thulasimathimurugesan.webp",
-
+      image: "public/speakers/thulasi.webp",
     },
     {
       name: "Malvika Jey",
       description:
         "An artist known for her exploration of surrealism and abstract art. She began her artistic journey since she was 4 years old. Over the years, she has experimented with various mediums and styles to develop her unique signature, focusing on emotional expression through color and form.",
 
-      image: "public/speakers/MalvikaJey.png",
+      image: "public/speakers/malvikajey.png",
 
     },
 
@@ -36,14 +35,16 @@ function Speaker() {
       description:
         "Dr. Sarkar is a certified Master Black Belt in Lean Six Sigma and Design for Six Sigma. He has been visiting faculty at Stanford and ISI and continues to teach at IIM-Bangalore and IISc. His publications, patents & technical leadership have been in applying probabilistic models, statistical analysis, and machine learning.",
 
-      image: "public/speakers/AbhinandaSarkar.jpeg",
+      image: "public/speakers/abhinandasarkar.jpeg",
+
     },
     {
       name: "Dr. Ashok Rajgopal",
       description:
         "An Indian orthopaedic surgeon, credited with close to 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries and reported to be one of the most experienced in his field in India.He was honoured by the Government of India in 2014, by bestowing on him the Padmashri, the fourth highest civilian award, for his services to the fields of orthopaedic surgery",
 
-      image: "public/speakers/AshokRajgopal.jpg",
+      image: "public/speakers/ashokrajgopal.JPG",
+
     },
     {
       name: "Ramalingam Natarajan",
