@@ -32,7 +32,7 @@ function Header() {
             GALLERY
           </div>
           <div className="underline-offset-8 cursor-pointer hover:underline text-white hover:text-red-500 hover:scale-90 transition-all duration-300 hover:decoration-red-500 mb-4 md:mb-0">
-            SPEAKERS
+            SPONSORS
           </div>
           <div className="underline-offset-8 cursor-pointer hover:underline text-white hover:text-red-500 hover:scale-90 transition-all duration-300 hover:decoration-red-500 mb-4 md:mb-0">
             TEAM

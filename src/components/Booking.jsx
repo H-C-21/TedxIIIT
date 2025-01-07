@@ -1,16 +1,16 @@
 import BgSpiral from "../assets/hands.png";
-import SeaBanner from "../assets/sea2.jpg"
+import SeaBanner from "../assets/sea2.jpg";
 function Booking() {
   return (
     <div className="h-[auto] mb-4">
-      <div className="w-full h-[90%] flex flex-row"
-        
-      >
-        <div className="flex w-[110%] bg-right bg-[210%_auto] px-8 bg-no-repeat
+      <div className="w-full h-[90%] flex flex-row">
+        <div
+          className="flex w-[110%] bg-right bg-[210%_auto] px-8 bg-no-repeat
         bg-opacity-15"
-        style={{ backgroundImage: `url(${SeaBanner})` }}>
-       {/* <div className="absolute h-[100%] w-[100vw] block top-0 left-0 bg-black opacity-50"></div> */}
-         <div className="inset-0 bg-gradient-to-br from-[#002f4b] to-[#dc4225] opacity-60"></div>
+          style={{ backgroundImage: `url(${SeaBanner})` }}
+        >
+          {/* <div className="absolute h-[100%] w-[100vw] block top-0 left-0 bg-black opacity-50"></div> */}
+          <div className="inset-0 bg-gradient-to-br from-[#002f4b] to-[#dc4225] opacity-60"></div>
           <div className="flex flex-col justify-center">
             <div className="">
               <section className="flex items-top justify-center h-[100%] bg-black-100">
@@ -36,11 +36,9 @@ function Booking() {
           className="bg-center w-[60%] h-auto bg-repeat flex justify-center items-center"
           style={{ backgroundImage: `url(${BgSpiral})` }}
         >
-        <button className="px-4 h-12 rounded-lg bg-black py-2 text-red-500 text-lg border border-red-500 transform hover:scale-105 transition duration-300">
-  Book Your Tickets!
-</button>
-
-
+          <button className="px-4 h-auto py-3 rounded-lg bg-black text-red-500 text-lg border border-red-500 transform hover:scale-105 transition duration-300">
+            Book Your Tickets!
+          </button>
         </div>
       </div>
     </div>
