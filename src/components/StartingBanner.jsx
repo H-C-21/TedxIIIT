@@ -6,22 +6,18 @@ function StartingBanner() {
   const [backgroundImage, setBackgroundImage] = useState(banner);
 
   useEffect(() => {
-    // Function to handle screen size changes
     const handleResize = () => {
       if (window.innerWidth <= 1000) {
-        setBackgroundImage(mobileBanner); // Use mobile image for small screens
+        setBackgroundImage(mobileBanner);
       } else {
-        setBackgroundImage(banner); // Use default image for larger screens
+        setBackgroundImage(banner);
       }
     };
 
-    // Check initial screen size
     handleResize();
 
-    // Add event listener to update on resize
     window.addEventListener("resize", handleResize);
 
-    // Clean up the event listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -30,7 +26,7 @@ function StartingBanner() {
       <div
         className="w-full h-[83vh] bg-cover bg-no-repeat bg-right-bottom flex justify-center items-center"
         style={{
-          backgroundImage: `url(${backgroundImage})`, // Dynamically set the background
+          backgroundImage: `url(${backgroundImage})`,
           backgroundPosition: "65% 50%",
         }}
       ></div>
