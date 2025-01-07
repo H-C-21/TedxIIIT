@@ -6,6 +6,7 @@ function ReasonsToAttend() {
       description:
         "A day where remarkable individuals from all walks of life share the stories that shaped their legacy",
       image: "/diverse.png",
+      alt: "Diverse Ideas",
     },
     {
       id: 2,
@@ -13,6 +14,7 @@ function ReasonsToAttend() {
       description:
         "Opportunity to engage in dialogue and connect with diverse individuals,a collaborative exchange of ideas.",
       image: "/network.jpg",
+      alt: "Networking",
     },
     {
       id: 3,
@@ -20,6 +22,7 @@ function ReasonsToAttend() {
       description:
         "Hear stories that inspire and challenge the way you think about the world.",
       image: "/inspiration.jpg",
+      alt: "Inspiration",
     },
     {
       id: 4,
@@ -27,6 +30,7 @@ function ReasonsToAttend() {
       description:
         "Entertainment is never overlooked! Find yourself immersed in a day of brilliant performances, ranging from art to music to stand-up comedy.",
       image: "/performance.jpeg",
+      alt: "Performances",
     },
     {
       id: 5,
@@ -34,6 +38,7 @@ function ReasonsToAttend() {
       description:
         "Hear stories that inspire and challenge the way you think about the world.",
       image: "/experience.jpg",
+      alt: "Experience to cherish",
     },
     {
       id: 6,
@@ -41,6 +46,7 @@ function ReasonsToAttend() {
       description:
         "Connect with fellow attendees & special guests in an engaging meet and greet session, where meaningful conversations and new friendships begin.",
       image: "/meetngreet.png",
+      alt: "Meet and Greet",
     },
 
     // Add more items as needed
