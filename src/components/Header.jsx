@@ -31,15 +31,23 @@ function Header() {
           <div className="underline-offset-8 cursor-pointer hover:underline text-white hover:text-red-500 hover:scale-90 transition-all duration-300 hover:decoration-red-500 mb-4 md:mb-0">
             GALLERY
           </div>
+
           <div className="underline-offset-8 cursor-pointer hover:underline text-white hover:text-red-500 hover:scale-90 transition-all duration-300 hover:decoration-red-500 mb-4 md:mb-0">
             SPONSORS
           </div>
+
           <div className="underline-offset-8 cursor-pointer hover:underline text-white hover:text-red-500 hover:scale-90 transition-all duration-300 hover:decoration-red-500 mb-4 md:mb-0">
             TEAM
           </div>
-          <div className="underline-offset-8 cursor-pointer hover:underline text-white hover:text-red-500 hover:scale-90 transition-all duration-300 hover:decoration-red-500 mb-4 md:mb-0">
-            ABOUT
-          </div>
+          <a
+            href="https://www.ted.com/participate/organize-a-local-tedx-event/before-you-start/what-is-a-tedx-event"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="underline-offset-8 cursor-pointer hover:underline text-white hover:text-red-500 hover:scale-90 transition-all duration-300 hover:decoration-red-500 mb-4 md:mb-0">
+              ABOUT
+            </div>
+          </a>
         </div>
       </div>
     </div>

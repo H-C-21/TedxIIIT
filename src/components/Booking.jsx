@@ -32,14 +32,14 @@ function Booking() {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="bg-center w-[60%] h-auto bg-repeat flex justify-center items-center"
           style={{ backgroundImage: `url(${BgSpiral})` }}
         >
           <button className="px-4 h-auto py-3 rounded-lg bg-black text-red-500 text-lg border border-red-500 transform hover:scale-105 transition duration-300">
             Book Your Tickets!
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
