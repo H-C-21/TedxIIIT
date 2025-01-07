@@ -37,13 +37,13 @@ function Speaker() {
       name: "Dr. Ashok Rajgopal",
       description:
         "An Indian orthopaedic surgeon, credited with close to 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries and reported to be one of the most experienced in his field in India. He was honoured by the Government of India in 2014, by bestowing on him the Padmashri, the fourth highest civilian award, for his services to the fields of orthopaedic surgery.",
-      image: "/ashokrajgopal.JPG",
+      image: "/ashokrajgopal.jpg",
     },
     {
       name: "Ramalingam Natarajan",
       description:
         "The co-founder of Volunteer for India (VFI), an organization aimed at fostering volunteerism to address social issues across the country. His career trajectory is notable for its blend of engineering, education, and social innovation. Initially trained as an aerospace engineer, he worked on projects for Airbus and Boeing before shifting to impactful community work.",
-      image: "/ramalingam.JPG",
+      image: "/ramalingam.jpg",
     },
     {
       name: "Swarnalatha",
