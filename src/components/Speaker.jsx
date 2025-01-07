@@ -1,7 +1,7 @@
 function SpeakerCard({ image, name, description }) {
   return (
     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:rotate-3 hover:shadow-2xl hover:shadow-glow">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:rotate-2 hover:shadow-2xl hover:shadow-glow">
         <img src={image} alt={name} className="w-full h-48 object-cover" />
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800">{name}</h3>
@@ -36,7 +36,7 @@ function Speaker() {
     {
       name: "Dr. Ashok Rajgopal",
       description:
-        "An Indian orthopaedic surgeon, credited with close to 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries and reported to be one of the most experienced in his field in India.He was honoured by the Government of India in 2014, by bestowing on him the Padmashri, the fourth highest civilian award, for his services to the fields of orthopaedic surgery",
+        "An Indian orthopaedic surgeon, credited with close to 20,000 Arthroscopic and over 35,000 Total Knee Arthroplasty surgeries and reported to be one of the most experienced in his field in India. He was honoured by the Government of India in 2014, by bestowing on him the Padmashri, the fourth highest civilian award, for his services to the fields of orthopaedic surgery.",
       image: "public/ashokrajgopal.JPG",
     },
     {
@@ -88,7 +88,7 @@ function Speaker() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12 mt-[-20%]">
+      <div className="container mx-auto px-4 py-12 mt-[-25%]">
         <div className="flex flex-wrap justify-center">
           {speakers.map((speaker, index) => (
             <SpeakerCard
