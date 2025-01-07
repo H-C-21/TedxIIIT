@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import banner from "../assets/iiit.png";
-import mobileBanner from "../assets/mobile_iiit.png";
+import banner from "../assets/iiit.webp";
+import mobileBanner from "../assets/mobile_iiit.webp";
 
 function StartingBanner() {
   const [backgroundImage, setBackgroundImage] = useState(banner);
